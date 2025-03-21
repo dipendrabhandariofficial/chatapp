@@ -23,7 +23,7 @@ const Chat = () => {
       {loading ? (
         <div className="text-black ">Loading...</div>
       ) : (
-        <div className="chat-container w-full max-w-6xl h-[90vh] rounded-xl shadow-lg grid grid-cols-1   lg:grid-cols-[1fr_2fr_1fr] gap-4">
+        <div className="chat-container w-full max-w-6xl h-[90vh] rounded-xl shadow-lg grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr]   lg:grid-cols-[1fr_2fr_1fr] gap-4">
           <LeftSidebar className="" />
           <Chatbox />
           <RightSidebar className="" />
