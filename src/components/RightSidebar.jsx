@@ -5,7 +5,7 @@ import { GoBell, GoBellFill } from "react-icons/go";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineSecurity } from "react-icons/md";
 import { Logout } from "../firebase/config";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 
 const RightSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);

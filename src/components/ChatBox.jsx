@@ -6,7 +6,7 @@ import { RiGalleryFill } from "react-icons/ri";
 import { MdEmojiEmotions } from "react-icons/md";
 import { motion } from "framer-motion";
 import userImage from "../assets/meetme.png"; // Ensure correct path
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import { getDoc, onSnapshot, doc, arrayUnion, setDoc, updateDoc, writeBatch } from "firebase/firestore";
 import { db } from "../firebase/config";
 import { toast } from "react-toastify";

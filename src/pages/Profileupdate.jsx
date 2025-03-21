@@ -6,7 +6,7 @@ import { db } from "../firebase/config";
 import { useNavigate } from "react-router-dom"; // Use useNavigate
 import { toast } from "react-toastify";
 import upload from "../lib/upload"; // Import Cloudinary upload function
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 
 const Profileupdate = () => {
   const [image, setImage] = useState(false);

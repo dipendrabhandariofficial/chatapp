@@ -14,7 +14,7 @@ import {
   where,
 } from "firebase/firestore";
 import { getDocs } from "firebase/firestore";
-import { AppContext } from "../context/appContext";
+import { AppContext } from "../context/AppContext";
 import { toast } from "react-toastify";
 import { setDoc, updateDoc } from "firebase/firestore";
 
