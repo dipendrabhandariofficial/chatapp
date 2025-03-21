@@ -18,6 +18,10 @@ import {
   collection,
 } from "firebase/firestore";
 import { toast } from "react-toastify";
+import { enableNetwork } from "firebase/firestore";
+
+
+
 
 // Firebase Config
 const firebaseConfig = {
@@ -34,6 +38,10 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
+
+enableNetwork(db).catch((err) => {
+  console.error("Error enabling Firestore network:", err);
+});
 
 // Signup Function
 const signup = async (username, email, password, navigate) => {
