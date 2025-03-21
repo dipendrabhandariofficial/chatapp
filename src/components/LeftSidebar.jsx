@@ -145,7 +145,7 @@ const LeftSidebar = () => {
           <div className="flex items-center justify-between relative mb-5">
             <div className="flex items-center gap-3 p-2">
               <img
-                src="src/assets/meetme.png"
+                src="public\meetme.png"
                 alt="Logo"
                 className="w-12 h-12"
               />
